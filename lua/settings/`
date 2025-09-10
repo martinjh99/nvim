@@ -1,7 +1,0 @@
-require('settings/lightline')
-require('settings/cat')
-
-local set = vim.keymap.set
--- Config to save
-
-

@@ -1,5 +1,4 @@
 require('settings/lightline')
-require('settings/cat')
 
 local set = vim.keymap.set
 local opts={}

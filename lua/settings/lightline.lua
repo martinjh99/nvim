@@ -1,3 +1,3 @@
 vim.g.lightline = {
-colourscheme = 'catppuccin'
+colourscheme = 'koehler'
 }

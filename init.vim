@@ -18,7 +18,6 @@ set smartcase
 set noshowmode
 
 call plug#begin('~/.config/nvim/plugged')
-Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
 Plug 'itchyny/lightline.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
@@ -26,6 +25,7 @@ call plug#end()
 
 lua require ('settings')
 
-colorscheme catppuccin
+colorscheme industry
+
 
 

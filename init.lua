@@ -16,6 +16,7 @@ vim.o.ignorecase=true
 vim.o.smartcase=true
 vim.o.showmode=false
 vim.wo.number = true
+vim.opt.clipboard="unnamedplus"
 
 -- Setup plugins
 require ("config.lazy")

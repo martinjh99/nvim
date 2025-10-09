@@ -15,16 +15,9 @@ vim.o.mouse = "a"
 vim.o.ignorecase=true
 vim.o.smartcase=true
 vim.o.showmode=false
+vim.wo.number = true
 
 -- Setup plugins
 require ("config.lazy")
-
--- local plug=vim.fn['plug#']
--- vim.call("plug#begin")
--- plug ('itchyny/lightline.vim')
--- vim.call("plug#end")
-
-require ('settings')
-
 vim.cmd.colorscheme("catppuccin")
 

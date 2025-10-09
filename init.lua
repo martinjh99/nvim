@@ -25,5 +25,5 @@ vim.call("plug#end")
 
 require ('settings')
 
-vim.cmd [[ "colorscheme darkblue" ]]
+vim.cmd.colorscheme("darkblue")
 

@@ -17,13 +17,14 @@ vim.o.smartcase=true
 vim.o.showmode=false
 
 -- Setup plugins
+require ("config.lazy")
 
-local plug=vim.fn['plug#']
-vim.call("plug#begin")
-plug ('itchyny/lightline.vim')
-vim.call("plug#end")
+-- local plug=vim.fn['plug#']
+-- vim.call("plug#begin")
+-- plug ('itchyny/lightline.vim')
+-- vim.call("plug#end")
 
 require ('settings')
 
-vim.cmd.colorscheme("darkblue")
+vim.cmd.colorscheme("catppuccin")
 

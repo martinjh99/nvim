@@ -1,9 +1,8 @@
 return {
-	{ 'nvim-mini/mini.statusline',
-        config=function()
-          -- local statusline=require 'mini.statusline'
-         require ('mini.statusline').setup {use_icons=true}
-        end},
+	{ 
+        "nvim-lualine/lualine.nvim",
+        requires = { "nvim-tree/web-devicons" }
+        },
 
 
 }

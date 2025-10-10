@@ -20,5 +20,6 @@ vim.opt.clipboard="unnamedplus"
 
 -- Setup plugins
 require ("config.lazy")
-vim.cmd.colorscheme("darkblue")
+require ('config.lualine')
+vim.cmd.colorscheme("retrobox")
 

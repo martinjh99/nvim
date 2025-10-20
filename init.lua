@@ -21,5 +21,7 @@ vim.opt.clipboard="unnamedplus"
 -- Setup plugins
 require ("config.lazy")
 require ('config.lualine')
+
+
 vim.cmd.colorscheme("blue")
 

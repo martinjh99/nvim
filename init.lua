@@ -23,5 +23,5 @@ require ("config.lazy")
 require ('config.lualine')
 
 
-vim.cmd.colorscheme("blue")
+vim.cmd.colorscheme("elflord")
 

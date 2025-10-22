@@ -22,5 +22,5 @@ require ("config.lazy")
 require ('config.lualine')
 
 
-vim.cmd.colorscheme("elflord")
+vim.cmd.colorscheme("wildcharm")
 

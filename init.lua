@@ -19,8 +19,8 @@ vim.wo.number = true
 
 -- Setup plugins
 require ("config.lazy")
-require ('config.lualine')
 
 
+-- Set Colour scheme
 vim.cmd.colorscheme("wildcharm")
 

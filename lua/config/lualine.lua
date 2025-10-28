@@ -1,4 +1,4 @@
 require('lualine').setup {
-   theme='auto',
+   theme='powerline',
 }
 

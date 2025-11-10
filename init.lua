@@ -23,5 +23,5 @@ require ("config.lualine")
 require ("config.comment")
 
 -- Set Colour scheme
--- vim.cmd.colorscheme("darkblue")
+vim.cmd.colorscheme("catppuccin-mocha")
 
